@@ -3,7 +3,7 @@
 
 This is a dashboard for brewery control, built using [Node-RED](https://github.com/node-red/node-red) running on a Raspberry Pi.
 
-This dashboard is a fork and a starting point for a 3 kettle HERMS setup -from Justin Angevaare`s Brew2 development for, and motivated by [his brewery](https://onbrewing.com). My brewery is a 2 vessel and 1 pump system designed to perform recirculating, full volume mashes. Other homebrewers may find the flows that comprise this dashboard useful in implementing some of the same features in their own brewery controller, but it will likely not suit their needs exactly as is. 
+This dashboard is a fork and a starting point for a 3 kettle HERMS setup -from Justin Angevaare`s Brew2 development for, and motivated by [his brewery](https://onbrewing.com). His brewery is a 2 vessel and 1 pump system, while mine is 3 vessels, and 3 pumps (rest is Justin`s written information, he designed his to perform recirculating, full volume mashes. Other homebrewers may find the flows that comprise this dashboard useful in implementing some of the same features in their own brewery controller, but it will likely not suit their needs exactly as is. 
 
 Support for adapting this dashboard to your own brewery/process will be limited. There are many great resources for learning about Node-RED. I've attempted to make flows as readable as possible, and to separate major features into individual flows. 
 
