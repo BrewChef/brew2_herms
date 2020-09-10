@@ -1,4 +1,4 @@
-<h1>brew2</h1>
+<h1>PiBrew (Brew2 fork) 3 vessel HERMS setup</h1>
 <h3>Description</h3>
 
 This is a dashboard for brewery control, built using [Node-RED](https://github.com/node-red/node-red) running on a Raspberry Pi.
