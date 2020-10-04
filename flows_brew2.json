@@ -821,7 +821,7 @@
         "freq": "1",
         "out": "pwm",
         "x": 510,
-        "y": 300,
+        "y": 280,
         "wires": []
     },
     {
@@ -838,7 +838,7 @@
         "wires": [
             [
                 "5388f955.84dd68",
-                "73b29684.205e88"
+                "a4a8f810.fed808"
             ]
         ]
     },
@@ -853,7 +853,7 @@
         "freq": "1",
         "out": "pwm",
         "x": 510,
-        "y": 180,
+        "y": 160,
         "wires": []
     },
     {
@@ -870,7 +870,7 @@
         "wires": [
             [
                 "b634656b.b32b48",
-                "d71994b8.dabd78"
+                "869a7f09.27b9a"
             ]
         ]
     },
@@ -3231,7 +3231,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "98.0",
+        "payload": "95",
         "payloadType": "num",
         "x": 630,
         "y": 240,
@@ -3312,7 +3312,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "0.25",
+        "payload": "1.1",
         "payloadType": "num",
         "x": 630,
         "y": 320,
@@ -3393,7 +3393,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "98",
+        "payload": "98.1",
         "payloadType": "num",
         "x": 630,
         "y": 440,
@@ -3474,7 +3474,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "1.45",
+        "payload": "1.2",
         "payloadType": "num",
         "x": 630,
         "y": 520,
@@ -7498,6 +7498,7 @@
         "id": "2604a4ae.1f8fec",
         "type": "link out",
         "z": "5975e44b.d697ac",
+        "d": true,
         "name": "HLT Bolt update",
         "links": [
             "87eb4a41.7763c8"
@@ -7510,6 +7511,7 @@
         "id": "caea86d3.7d1a28",
         "type": "link out",
         "z": "5975e44b.d697ac",
+        "d": true,
         "name": "HLT Bolt update",
         "links": [
             "87eb4a41.7763c8"
@@ -7690,7 +7692,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "45",
+        "payload": "42",
         "payloadType": "num",
         "x": 100,
         "y": 480,
@@ -7720,7 +7722,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "0.2",
+        "payload": "0.15",
         "payloadType": "num",
         "x": 100,
         "y": 580,
@@ -7750,7 +7752,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "90",
+        "payload": "25",
         "payloadType": "num",
         "x": 100,
         "y": 680,
@@ -8908,7 +8910,7 @@
         "freq": "1",
         "out": "pwm",
         "x": 500,
-        "y": 60,
+        "y": 20,
         "wires": []
     },
     {
@@ -8925,7 +8927,7 @@
         "wires": [
             [
                 "64296408.5ef7bc",
-                "ff2d40d6.ee5bf"
+                "dcedd538.fa0aa8"
             ]
         ]
     },
@@ -9038,7 +9040,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "98",
+        "payload": "94.8",
         "payloadType": "num",
         "x": 630,
         "y": 80,
@@ -9119,7 +9121,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "0.0",
+        "payload": "0.6",
         "payloadType": "num",
         "x": 630,
         "y": 160,
@@ -10467,10 +10469,10 @@
         "height": 3,
         "gtype": "gage",
         "title": "",
-        "label": "Power",
-        "format": "{{value}}%",
+        "label": "usage",
+        "format": "{{value}} kW",
         "min": 0,
-        "max": "100",
+        "max": "5.5",
         "colors": [
             "#ffd700",
             "#ffd700",
@@ -10727,6 +10729,7 @@
         "id": "cba8dc71.24459",
         "type": "link out",
         "z": "d0b13d4e.c9901",
+        "d": true,
         "name": "BK Bolt update",
         "links": [
             "bd035fcf.d9bca"
@@ -10739,6 +10742,7 @@
         "id": "71a21889.31f8b8",
         "type": "link out",
         "z": "d0b13d4e.c9901",
+        "d": true,
         "name": "BK Bolt update",
         "links": [
             "bd035fcf.d9bca"
@@ -10919,7 +10923,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "45",
+        "payload": "48",
         "payloadType": "num",
         "x": 100,
         "y": 480,
@@ -10949,7 +10953,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "0.2",
+        "payload": "0.02",
         "payloadType": "num",
         "x": 100,
         "y": 580,
@@ -10979,7 +10983,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "90",
+        "payload": "18",
         "payloadType": "num",
         "x": 100,
         "y": 680,
@@ -13138,6 +13142,7 @@
         "id": "e7dff68b.90fd08",
         "type": "link out",
         "z": "2a42b19e.b8592e",
+        "d": true,
         "name": "MLT Bolt update",
         "links": [
             "3367ff15.c38b1"
@@ -13150,6 +13155,7 @@
         "id": "dfead430.233f78",
         "type": "link out",
         "z": "2a42b19e.b8592e",
+        "d": true,
         "name": "MLT Bolt update",
         "links": [
             "3367ff15.c38b1"
@@ -13330,7 +13336,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "45",
+        "payload": "43",
         "payloadType": "num",
         "x": 160,
         "y": 480,
@@ -13360,7 +13366,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "0.2",
+        "payload": "0.15",
         "payloadType": "num",
         "x": 160,
         "y": 580,
@@ -13390,7 +13396,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "90",
+        "payload": "25",
         "payloadType": "num",
         "x": 160,
         "y": 680,
@@ -14397,10 +14403,10 @@
         "height": 3,
         "gtype": "gage",
         "title": "",
-        "label": "Power",
-        "format": "{{value}}%",
+        "label": "usage",
+        "format": "{{value}} kW",
         "min": 0,
-        "max": "100",
+        "max": "5.5",
         "colors": [
             "#ffd700",
             "#ffd700",
@@ -14490,10 +14496,10 @@
         "height": 3,
         "gtype": "gage",
         "title": "",
-        "label": "Power",
-        "format": "{{value}}%",
+        "label": "usage",
+        "format": "{{value}} kW",
         "min": 0,
-        "max": "100",
+        "max": "5.5",
         "colors": [
             "#ffd700",
             "#ffd700",
@@ -14502,7 +14508,7 @@
         "seg1": "40",
         "seg2": "75",
         "x": 520,
-        "y": 360,
+        "y": 380,
         "wires": []
     },
     {
@@ -14532,7 +14538,8 @@
         "y": 440,
         "wires": [
             [
-                "35dd5e9b.8dbbf2"
+                "35dd5e9b.8dbbf2",
+                "a4a8f810.fed808"
             ]
         ]
     },
@@ -14851,6 +14858,66 @@
         "wires": [
             [
                 "f893af64.ca612"
+            ]
+        ]
+    },
+    {
+        "id": "dcedd538.fa0aa8",
+        "type": "range",
+        "z": "d27bb3af.67797",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "0",
+        "maxout": "5.5",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "Duty to watts",
+        "x": 510,
+        "y": 70,
+        "wires": [
+            [
+                "ff2d40d6.ee5bf"
+            ]
+        ]
+    },
+    {
+        "id": "869a7f09.27b9a",
+        "type": "range",
+        "z": "d27bb3af.67797",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "0",
+        "maxout": "5.5",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "Duty to watts",
+        "x": 510,
+        "y": 200,
+        "wires": [
+            [
+                "d71994b8.dabd78"
+            ]
+        ]
+    },
+    {
+        "id": "a4a8f810.fed808",
+        "type": "range",
+        "z": "d27bb3af.67797",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "0",
+        "maxout": "5.5",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "Duty to watts",
+        "x": 510,
+        "y": 331,
+        "wires": [
+            [
+                "73b29684.205e88"
             ]
         ]
     }
